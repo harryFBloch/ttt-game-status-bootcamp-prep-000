@@ -21,7 +21,6 @@ WIN_COMBINATIONS = [
       pos1 = board[combo[0]]
       pos2 = board[combo[1]]
       pos3 = board[combo[2]]
-      puts "TEST#{pos1}, #{pos2}, #{pos3}TEST"
       if pos1 == pos2 && pos2 == pos3 && pos3 == pos1
         if pos1 == "X" || pos1 == "O"
            puts "Combo = #{combo}TEST"
