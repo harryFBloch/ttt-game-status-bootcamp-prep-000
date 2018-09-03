@@ -58,7 +58,7 @@ WIN_COMBINATIONS = [
    end
    
    def winner(board)
-     winnerCombo = win?(board)
+     winnerCombo = won?(board)
      puts board[winnerCombo[0]]
      return board[winnerCombo[0]]
    end
