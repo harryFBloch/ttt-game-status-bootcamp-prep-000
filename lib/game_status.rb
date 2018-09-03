@@ -28,7 +28,7 @@ WIN_COMBINATIONS = [
         end
       end
     end
-    return returnBool
+    return false
   end
   
 
