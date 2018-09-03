@@ -34,10 +34,11 @@ WIN_COMBINATIONS = [
 
   
    def full?(board)
-    board.all? do |space|
-       if space != "X" || space != "O"
-       end
-    end 
+    if board.detect {|i| i == " " || i == nil}
+    return false
+  else
+    return true
+  end
    end
   
   won?([" ", " ", " "," ", " ", " ","X", "O", "X"])
