@@ -40,5 +40,17 @@ WIN_COMBINATIONS = [
     return true
    end
    end
+   
+   def draw?(board)
+     
+   end
+   
+   def over?(board)
+     
+   end
+   
+   def winner(board)
+     
+   end
   
   won?([" ", " ", " "," ", " ", " ","X", "O", "X"])
