@@ -59,7 +59,8 @@ WIN_COMBINATIONS = [
    
    def winner(board)
      winnerCombo = win?(board)
+     puts board[winnerCombo[0]]
      return board[winnerCombo[0]]
    end
   
-  won?([" ", " ", " "," ", " ", " ","X", "O", "X"])
+  winner([" ", " ", " "," ", " ", " ","X", "X", "X"])
