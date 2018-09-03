@@ -15,7 +15,7 @@ WIN_COMBINATIONS = [
     [2, 4, 6]
   ]
   
-  def won(board)
+  def won?(board)
     returnBool = false
     WIN_COMBINATIONS.each do |combo|
       pos1 = board[combo[0]]
